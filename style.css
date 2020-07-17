@@ -18,24 +18,173 @@ body {
   background-color: #aa2a51;
 }
 
+h1 {
+  color: white;
+  /* font-size: 30px; */
+}
+
+h4 {
+  color: #aa2a51;
+}
+
 /* CONTAINER 1 */
 
-.dati {
+.titolo1 {
+  height: 10%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.calcola {
   height: 30%;
-  width: calc(100vw - 200px);
+  width: calc(100vw - 500px);
   margin: auto;
   background-color: white;
   display: flex;
   border-radius: 20px;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 5px 10px #751c37;
+}
+
+.dati {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nome, .km, .eta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dati h4 {
+  color: #aa2a51;
+}
+
+.nome input, .km input, .eta select {
+  border: 2px solid #aa2a51;
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.bottoni {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bottone1, .bottone2 {
+  margin: 30px 10px 0 10px;
+
+}
+
+#btn1, #btn2 {
+  border: 2px solid #aa2a51;
+  background-color: #cccccc;
+  padding: 5px;
+  color: #aa2a51;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: auto;
 }
 
 /* CONTAINER 2 */
 
-.risultato {
+.titolo2 {
+  height: 10%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#biglietto {
   height: 40%;
-  width: calc(100vw - 200px);
+  width: calc(100vw - 500px);
   margin: auto;
   background-color: white;
   display: flex;
   border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* opacity: 0;
+  transition: 1s; */
+}
+
+/* .animation {
+  opacity: 1;
+  transition: 1s;
+} */
+
+
+.titolo3 {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.dettagli {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  border-right: none;
+  flex-wrap: wrap;
+}
+
+.michele {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: #808080;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.prezzo {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.offerta, .carrozza, .codice, .costo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.prezzo h4 {
+  color: green;
 }
