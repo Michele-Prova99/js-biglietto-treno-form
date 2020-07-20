@@ -73,7 +73,7 @@ h4 {
 
 .nome input, .km input, .eta select {
   border: 2px solid #aa2a51;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 5px 15px;
   text-align: center;
   font-size: 15px;
@@ -95,7 +95,7 @@ h4 {
 
 }
 
-#btn1, #btn2 {
+/* #btn1, #btn2 {
   border: 2px solid #aa2a51;
   background-color: #cccccc;
   padding: 5px;
@@ -103,7 +103,7 @@ h4 {
   font-size: 20px;
   border-radius: 5px;
   margin: auto;
-}
+} */
 
 /* CONTAINER 2 */
 
@@ -127,14 +127,17 @@ h4 {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  /* opacity: 0;
-  transition: 1s; */
 }
 
-/* .animation {
+.hidden {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.show {
   opacity: 1;
-  transition: 1s;
-} */
+  transition: 0.2s;
+}
 
 
 .titolo3 {

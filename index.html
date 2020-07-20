@@ -25,20 +25,23 @@
 
           <div class="nome">
             <h4>Nome Cognome</h4>
-            <input type="text" name="" value="">
+            <!-- <label for="nome">Nome Cognome</label> -->
+            <input id="nome" type="text" name="" value="">
           </div>
 
           <div class="km">
             <h4>Km da percorrere</h4>
-            <input type="text" name="" value="">
+            <!-- <label for="km">Km da percorrere</label> -->
+            <input id="km" type="text" name="" value="">
           </div>
 
           <div class="eta">
             <h4>Fascia d'età</h4>
-            <select class="opzioni" name="">
-              <option value="opt1">Minorenne</option>
-              <option value="opt2">Maggiorenne</option>
-              <option value="opt3">Over 65</option>
+            <!-- <label for="fascia-eta">Fascia d'età</label> -->
+            <select id="fascia-eta" class="opzioni" name="">
+              <option value="Minorenne">Minorenne</option>
+              <option value="Maggiorenne">Maggiorenne</option>
+              <option value="Over">Over 65</option>
             </select>
           </div>
 
@@ -64,7 +67,7 @@
         <h1>IL TUO BIGLIETTO</h1>
       </div>
 
-      <div id="biglietto">
+      <div id="biglietto" class="hidden">
 
         <div class="titolo3">
           <h2>DETTAGLIO PASSEGGERI</h2>
@@ -74,29 +77,29 @@
 
           <div class="michele">
             <h2>NOME PASSEGGERO</h2>
-            <h2>Michele</h2>
+            <h2 id="nome-passeggero"></h2>
           </div>
 
           <div class="prezzo">
 
             <div class="offerta">
               <h3>Offerta</h3>
-              <h4>Sconto Minorenne</h4>
+              <h4 id="offerta2"></h4>
             </div>
 
             <div class="carrozza">
               <h3>Carrozza</h3>
-              <h4>7</h4>
+              <h4 id="carrozza"></h4>
             </div>
 
             <div class="codice">
               <h3>Codice CP</h3>
-              <h4>97928</h4>
+              <h4 id="codice-cp"></h4>
             </div>
 
             <div class="costo">
               <h3>Costo biglietto</h3>
-              <h4>3.36€</h4>
+              <h4 id="costo2"></h4>
             </div>
 
           </div>
